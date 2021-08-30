@@ -27,11 +27,11 @@ function get_sets()
     feet="Nyame Sollerets",
     neck="Twilight Torque",
     waist="Flume Belt",
-    left_ear="Suppanomimi",
+    left_ear="Eabani Earring",
     right_ear="Telos Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.Idle.DT = {
 	ammo="Staunch Tathlum",
@@ -42,11 +42,11 @@ function get_sets()
     feet="Nyame Sollerets",
     neck="Twilight Torque",
     waist="Flume Belt",
-    left_ear="Suppanomimi",
+    left_ear="Eabani Earring",
     right_ear="Telos Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Moonbeam Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	--For THF/DRK poisonga TH in Divergence, etc
 	sets.Idle.Refresh = {
@@ -58,11 +58,11 @@ function get_sets()
     feet="Nyame Sollerets",
     neck="Twilight Torque",
     waist="Flume Belt",
-    left_ear="Suppanomimi",
+    left_ear="Eabani Earring",
     right_ear="Telos Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Moonbeam Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	--TP Sets--
 	sets.TP = {}
@@ -85,7 +85,7 @@ function get_sets()
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.TP.CapHaste = {
 	ammo="Aurgelmir Orb",
@@ -100,7 +100,7 @@ function get_sets()
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.TP.AccuracyLite = {
 	ammo="Aurgelmir Orb",
@@ -115,7 +115,7 @@ function get_sets()
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    bback={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 
 	sets.TP.AccuracyMid = {
 	ammo="Aurgelmir Orb",
@@ -130,7 +130,7 @@ function get_sets()
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 
 	sets.TP.AccuracyFull = {
 	ammo="Aurgelmir Orb",
@@ -145,7 +145,7 @@ function get_sets()
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	--DT Sets--
     sets.DT = {}
@@ -180,7 +180,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Defending Ring",
     right_ring="Moonbeam Ring",
-    back="Moonbeam Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
     --Shell V on. Need 21% MDT, 19% with sheltered.
 	sets.DT.MDTV = {
@@ -196,7 +196,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.DT.MEVA = {
 	ammo="Aurgelmir Orb",
@@ -211,7 +211,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.DT.Evasion = {
 	ammo="Aurgelmir Orb",
@@ -226,7 +226,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",
-    back="Toutatis's Cape",}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	--WS SETS--
 	sets.WS = {}
