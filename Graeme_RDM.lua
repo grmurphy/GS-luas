@@ -209,7 +209,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Moonbeam Cape",} 
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} 
 	
 	sets.Idle.DT = {
 	ammo="Staunch Tathlum",
@@ -224,7 +224,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Moonbeam Cape",} 
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} 
 	
 	sets.Idle.Refresh = {
 	ammo="Homiliary",
@@ -239,7 +239,7 @@ function get_sets()
     right_ear="Eabani Earring",
     left_ring="Defending Ring",
     right_ring="Shneddick Ring",
-    back="Aptitude Mantle +1",} 
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} 
 	
 	-- melee-mode (DW)
 	sets.Idle_melee_DW = {}
@@ -259,7 +259,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 20/3/33
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 20/3/33
 	
 	sets.Idle_melee_DW.DT = {
 	ammo="Ginsen",
@@ -274,7 +274,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 20/3/31
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 20/3/31
 	
 	sets.Idle_melee_DW.Refresh = {
 	ammo="Ginsen",
@@ -289,7 +289,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 20/3/27
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 20/3/27
 	
 	-- melee-mode (Single-Wield)
 	sets.Idle_melee_SW = {}
@@ -309,7 +309,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 20/3/24	
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 20/3/24	
 	
 	sets.Idle_melee_SW.DT = {
 	ammo="Ginsen",
@@ -324,7 +324,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 20/3/32
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 20/3/32
 	
 	sets.Idle_melee_SW.Refresh = {
 	ammo="Ginsen",
@@ -339,7 +339,7 @@ function get_sets()
     right_ear="Telos Earring",
     left_ring="Petrov Ring",
     right_ring="Ayanmo Ring",
-    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +2','Enha.mag. skill +4','Mag. Acc.+5','Enh. Mag. eff. dur. +20',}},} -- 27/2/24	
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 27/2/24	
 
 
 	--TP Sets--

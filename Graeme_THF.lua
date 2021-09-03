@@ -141,7 +141,7 @@ function get_sets()
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
     neck="Erudit. Necklace",
     waist="Windbuffet Belt +1",
-    left_ear="Brutal Earring",
+    left_ear="Suppanomimi",
     right_ear="Cessance Earring",
     left_ring="Epona's Ring",
     right_ring="Petrov Ring",

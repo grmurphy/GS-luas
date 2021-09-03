@@ -27,8 +27,8 @@ function get_sets()
 
 	sets.Idle.Standard = {
 	ammo="Staunch Tathlum",
-    head="Turms Cap",
-    body="Turms Harness",
+    head="Nyame Helm",
+    body="Nyame Mail",
     hands="Turms Mittens",
     legs="Eri. Leg Guards +1",
     feet={ name="Carmine Greaves +1", augments={'HP+80','MP+80','Phys. dmg. taken -4',}},
