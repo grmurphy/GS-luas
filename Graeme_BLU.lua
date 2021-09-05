@@ -213,9 +213,57 @@ function get_sets()
 		
     --Weaponskill Sets--
     sets.WS = {}
+	
+	sets.SavageBlade = {}
+	sets.SavageBlade.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
+	SavageBlade_ind = 1
+	
+	sets.SavageBlade.AttackUncap = {
+	ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Cessance Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
+	
+	sets.SavageBlade.AttackCap = {    
+	ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Cessance Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
+	
+	sets.SavageBlade.Accuracy = {    
+	ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Cessance Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
     sets.Requiescat = {}
-
     sets.Requiescat.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
     Requiescat_ind = 1
 
@@ -226,26 +274,76 @@ function get_sets()
     sets.Requiescat.Accuracy = {}
 
     sets.CDC = {}
-
     sets.CDC.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
     CDC_ind = 1
 
-    sets.CDC.AttackUncap = {}
+    sets.CDC.AttackUncap = {
+	ammo="Expeditious Pinion",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
+    body="Ayanmo Corazza +2",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
+    legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}},
+    feet="Aya. Gambieras +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Brutal Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Garuda Ring",
+    right_ring="Garuda Ring +1",
+    back="Kayapa Cape",}
 
     sets.CDC.AttackCap = set_combine(sets.CDC.AttackUncap, {})
     
-    sets.CDC.Accuracy = {}
+    sets.CDC.Accuracy = {
+	ammo="Expeditious Pinion",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
+    body="Ayanmo Corazza +2",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
+    legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}},
+    feet="Aya. Gambieras +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear="Brutal Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Garuda Ring",
+    right_ring="Garuda Ring +1",
+    back="Kayapa Cape",}
 
     sets.Expiacion = {}
-
     sets.Expiacion.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
     Expiacion_ind = 1
 
-    sets.Expiacion.AttackUncap = {}
+    sets.Expiacion.AttackUncap = {
+	ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Cessance Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
 	sets.Expiacion.AttackCap = set_combine(sets.Expiacion.AttackUncap, {})
 	
-    sets.Expiacion.Accuracy = {}
+    sets.Expiacion.Accuracy = {
+	ammo="Aurgelmir Orb",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Cessance Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
     sets.SanguineBlade = {}
 
