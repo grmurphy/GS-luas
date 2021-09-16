@@ -237,60 +237,60 @@ function get_sets()
 	RudrasUnstacked_ind = 1
 	
 	sets.RudrasUnstacked.AttackUncap = {
-	ammo="Expeditious Pinion",
-    head={ name="Lustratio Cap", augments={'Accuracy+15','DEX+5','Crit. hit rate+2%',}},
-    body="Meg. Cuirie +1",
-    hands="Meg. Gloves +2",
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
+    hands="Mummu Wrists +2",
     legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
     feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
-    neck="Sanctity Necklace",
-    waist="Artful Belt +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back={ name="Canny Cape", augments={'DEX+4','AGI+5','Crit. hit damage +2%',}},}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 
 	sets.RudrasUnstacked.AttackCap = {
-	ammo="Expeditious Pinion",
-    head={ name="Lustratio Cap", augments={'Accuracy+15','DEX+5','Crit. hit rate+2%',}},
-    body="Meg. Cuirie +1",
-    hands="Meg. Gloves +2",
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
+    hands="Mummu Wrists +2",
     legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
     feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
-    neck="Sanctity Necklace",
-    waist="Artful Belt +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back={ name="Canny Cape", augments={'DEX+4','AGI+5','Crit. hit damage +2%',}},}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.RudrasUnstacked.Accuracy = {
-	ammo="Expeditious Pinion",
-    head={ name="Lustratio Cap", augments={'Accuracy+15','DEX+5','Crit. hit rate+2%',}},
-    body="Meg. Cuirie +1",
-    hands="Meg. Gloves +2",
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
+    hands="Mummu Wrists +2",
     legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
     feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
-    neck="Sanctity Necklace",
-    waist="Artful Belt +1",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back={ name="Canny Cape", augments={'DEX+4','AGI+5','Crit. hit damage +2%',}},}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 
 	--RUDRAS STACKED--
 	sets.RudrasStacked = {}
 	sets.RudrasStacked.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
 	RudrasStacked_ind = 1
 	
-	sets.RudrasStacked.AttackUncap = set_combine(sets.RudrasUnstacked.AttackUncap, {back="Toutatis's Cape",})
+	sets.RudrasStacked.AttackUncap = set_combine(sets.RudrasUnstacked.AttackUncap, {})
 
-	sets.RudrasStacked.AttackCap = set_combine(sets.RudrasUnstacked.AttackCap, {back="Toutatis's Cape",})
+	sets.RudrasStacked.AttackCap = set_combine(sets.RudrasUnstacked.AttackCap, {})
 	
-	sets.RudrasStacked.Accuracy = set_combine(sets.RudrasUnstacked.Accuracy, {back="Toutatis's Cape",})
+	sets.RudrasStacked.Accuracy = set_combine(sets.RudrasUnstacked.Accuracy, {})
 
 	--EXENTERATOR UNSTACKED--
 	sets.ExenteratorUnstacked = {}
@@ -396,49 +396,49 @@ function get_sets()
 	EviscerationUnstacked_ind = 1
 
 	sets.EviscerationUnstacked.AttackUncap = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    legs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.EviscerationUnstacked.AttackCap = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    legs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.EviscerationUnstacked.Accuracy = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    llegs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 
 	--EVISCERATION STACKED--
 	sets.EviscerationStacked = {}
@@ -446,49 +446,49 @@ function get_sets()
 	EviscerationStacked_ind = 1
 
 	sets.EviscerationStacked.AttackUncap = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    legs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.EviscerationStacked.AttackCap = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    legs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	sets.EviscerationStacked.Accuracy = {
-	ammo="Yetshila",
-    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+	ammo="Aurgelmir Orb",
+    head="Pill. Bonnet +2",
+    body="Pillager's Vest +3",
     hands="Mummu Wrists +2",
-    legs="Pill. Culottes +2",
-    feet="Mummu Gamash. +1",
+    legs={ name="Lustr. Subligar +1", augments={'Accuracy+20','DEX+8','Crit. hit rate+3%',}},
+    feet={ name="Lustratio Leggings", augments={'HP+50','STR+10','DEX+10',}},
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
     right_ear="Odr Earring",
     left_ring="Ramuh Ring",
     right_ring="Ramuh Ring",
-    back= "Kayapa Cape"}
+    back={ name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+6','"Store TP"+10','Phys. dmg. taken-10%',}},}
 	
 	--AEOLIAN--
 	sets.AeolianEdge = {
