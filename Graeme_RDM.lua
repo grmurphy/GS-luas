@@ -995,7 +995,20 @@ function get_sets()
 	--Theoretical max of -274 MEva possible vs NMs if 625 skill can be reached along with all potency+/Saboteur+ gear
 	--Current max skill possible with potency+ is 616 (potential -267 MEva)
 	--Capping skill with current sets available provides a max of only 44% potency+ (potential -256 MEva)
-	sets.midcast.Enfeebling_skill_frazzle3 = {} -- 
+	sets.midcast.Enfeebling_skill_frazzle3 = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--625 Skill -> Effect+ -> MND -> MAcc -> Duration+
 	--Spells: Frazzle III | Poison II
@@ -1003,11 +1016,37 @@ function get_sets()
 	--Current max skill possible with potency+ is 616 (potential -267 MEva)
 	--Capping skill with current sets available provides a max of only 44% potency+ (potential -256 MEva)
 	--This set lacks skill due to no weapon swaps on cast (meleemode)
-	sets.midcast.Enfeebling_skill_frazzle3_melee = {} -- 	
+	sets.midcast.Enfeebling_skill_frazzle3_melee = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 	
 	
 	--MAcc -> Effect+ -> MND -> Duration+
 	--Spells: Frazzle II
-	sets.midcast.Enfeebling_skill_frazzle2 = {} -- 
+	sets.midcast.Enfeebling_skill_frazzle2 = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--Effect+ -> 610 Skill -> MND -> MAcc -> Duration+
 	--Spells: Distract III
@@ -1016,22 +1055,74 @@ function get_sets()
 	--610 Skill -> Effect+ -> MND -> MAcc -> Duration+
 	--Spells: Distract III
 	--This set lacks skill due to no weapon swaps on cast (meleemode)
-	sets.midcast.Enfeebling_skill_distract3_melee = {} -- 
+	sets.midcast.Enfeebling_skill_distract3_melee = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--Effect+ -> MND -> MAcc -> Duration+
 	--Spells: Slow II | Paralyze II | Addle II
-	sets.midcast.Enfeebling_MND = {} -- 
+	sets.midcast.Enfeebling_MND = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--Effect+ -> Duration+
 	--Spells: Dia III | Inundation (Due to being longest duration normal set)
-	sets.midcast.Enfeebling_effect = {} -- 
+	sets.midcast.Enfeebling_effect = {
+	ammo="Oreiad's Tathlum",
+    head={ name="Viti. Chapeau +1", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Atrophy Tabard +1",
+    hands="Leth. Gantherots +1",
+    legs={ name="Psycloth Lappas", augments={'Mag. Acc.+10','Spell interruption rate down +15%','MND+7',}},
+    feet={ name="Vitiation Boots +1", augments={'Immunobreak Chance',}},
+    neck="Incanter's Torque",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--MAcc -> Duration+
 	--Spells: Sleep | Sleep II | Sleepga | Bind | Break | Dispel | Dispelga
 	--			Gravity | Gravity II | Blind* | Blind II* | Silence
 	--			Burn | Choke | Shock | Drown | Rasp | Frost
 	-- (*Technically dINT-Based, but landing is often more important than ~5-50 Acc Down lost)
-	sets.midcast.Enfeebling_macc = {} -- 
+	sets.midcast.Enfeebling_macc = {
+	ammo="Oreiad's Tathlum",
+    head="Malignance Chapeau",
+    body="Ayanmo Corazza +2",
+    hands="Nyame Gauntlets",
+    legs="Malignance Tights",
+    feet="Nyame Sollerets",
+    neck="Sanctity Necklace",
+    waist="Rumination Sash",
+    left_ear="Snotra Earring",
+    right_ear="Malignance Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Sucellos's Cape", augments={'"Dual Wield"+10',}},} -- 
 	
 	--MAcc -> CMP
 	--Spells: Impact

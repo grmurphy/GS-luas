@@ -640,10 +640,11 @@ function get_sets()
     back="Moonbeam Cape",}
 	
 	sets.Enhancing.Phalanx = set_combine(sets.Enhancing.Duration, {
-	body={ name="Taeon Tabard", augments={'Phalanx +3',}},
-    hands={ name="Taeon Gloves", augments={'Phalanx +3',}},
-	legs={ name="Taeon Tights", augments={'"Fast Cast"+3','Phalanx +3',}},
-    feet={ name="Taeon Boots", augments={'Phalanx +3',}},})
+	head={ name="Taeon Chapeau", augments={'Mag. Evasion+18','"Conserve MP"+5','Phalanx +3',}},
+    body={ name="Taeon Tabard", augments={'Mag. Evasion+15','Spell interruption rate down -10%','Phalanx +3',}},
+    hands={ name="Taeon Gloves", augments={'Mag. Evasion+15','Spell interruption rate down -9%','Phalanx +3',}},
+    legs={ name="Taeon Tights", augments={'Mag. Evasion+16','Spell interruption rate down -9%','Phalanx +3',}},
+    feet={ name="Taeon Boots", augments={'Mag. Evasion+16','Spell interruption rate down -10%','Phalanx +3',}},})
 	
 	sets.Enhancing.Refresh = set_combine(sets.Enhancing.Duration, {head="Erilaz Galea +1", waist="Gishdubar sash",})
 	

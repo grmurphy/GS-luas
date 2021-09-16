@@ -113,28 +113,28 @@ function get_sets()
     TP_ind = 1
 
 	sets.TP.TwoHandTP = {
-	ammo="Ginsen",
+	ammo="Aurgelmir Orb",
     head="Flam. Zucchetto +2",
-    body="Flamma Korazin +2",
+    body={ name="Valorous Mail", augments={'"Dbl.Atk."+5','Accuracy+4','Attack+8',}},
     hands="Sulev. Gauntlets +2",
     legs="Pumm. Cuisses +2",
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck={ name="War. Beads +2", augments={'Path: A',}},
     waist="Ioskeha Belt +1",
-    left_ear="Cessance Earring",
-    right_ear="Telos Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    left_ear="Brutal Earring",
+    right_ear="Cessance Earring",
+    left_ring="Rajas Ring",
+    right_ring="Petrov Ring",
     back={ name="Cichol's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}},}
 
 	--Add a high acc TP set here, shoot for 1350-1400 ACC with food. Use this for Omen bosses and wave 2+
 	sets.TP.HighACC = {
-	ammo="Ginsen",
+	ammo="Aurgelmir Orb",
     head="Flam. Zucchetto +2",
-    body={ name="Emicho Haubert", augments={'HP+50','DEX+10','Accuracy+15',}},
-    hands={ name="Emi. Gauntlets +1", augments={'Accuracy+25','"Dual Wield"+6','Pet: Accuracy+25',}},
+    body={ name="Valorous Mail", augments={'"Dbl.Atk."+5','Accuracy+4','Attack+8',}},
+    hands="Sulev. Gauntlets +2",
     legs="Pumm. Cuisses +2",
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck={ name="War. Beads +2", augments={'Path: A',}},
     waist="Ioskeha Belt +1",
     left_ear="Brutal Earring",
@@ -149,7 +149,7 @@ function get_sets()
     body={ name="Emicho Haubert", augments={'HP+50','DEX+10','Accuracy+15',}},
     hands={ name="Emi. Gauntlets +1", augments={'Accuracy+25','"Dual Wield"+6','Pet: Accuracy+25',}},
     legs="Pumm. Cuisses +2",
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck={ name="War. Beads +2", augments={'Path: A',}},
     waist="Ioskeha Belt +1",
     left_ear="Suppanomimi",
@@ -164,7 +164,7 @@ function get_sets()
     body={ name="Valorous Mail", augments={'"Dbl.Atk."+5','Accuracy+4','Attack+8',}},
     hands="Sulev. Gauntlets +2",
     legs="Pumm. Cuisses +2",
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck={ name="War. Beads +2", augments={'Path: A',}},
     waist="Ioskeha Belt +1",
     left_ear="Brutal Earring",
@@ -238,17 +238,17 @@ function get_sets()
 	sets.WS = {}
 	sets.WS.base = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Fotia Gorget",
-    waist="Fotia Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.SanguineBlade = {
@@ -257,7 +257,7 @@ function get_sets()
     body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
     hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
     legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck="Warrior's Beads",
     waist="Chuq'aba Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
@@ -267,65 +267,66 @@ function get_sets()
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 
 	sets.WS.Upheaval = {
-	mmo="Knobkierrie",
-    head="Sulevia's Mask +1",
-    body="Sulevia's Plate. +1",
-    hands="Sulevia's Gauntlets +2",
-    legs="Sulevia's Cuisses",
-    feet="Sulevia's Leggings +2",
-    neck="Fotia Gorget",
-    waist="Chuq'aba Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrudd Earring",
-    left_ring="Petrov Ring",
-    right_ring="Provocare Ring",
+	ammo="Knobkierrie",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring={ name="Gelatinous Ring +1", augments={'Path: A',}},
+    right_ring="Supershear Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.BlackHalo = {}
 
 	sets.WS.UkkosFury = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Fotia Gorget",
-    waist="Fotia Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 
 	sets.WS.FellCleave = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Fotia Gorget",
-    waist="Fotia Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.Resolution = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Fotia Gorget",
-    waist="Fotia Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    ammo="Knobkierrie",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}	
 
 	sets.WS.GroundStrike = {
@@ -334,7 +335,7 @@ function get_sets()
     body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
     hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
     legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
+    feet="Pumm. Calligae +3",
     neck="Fotia Gorget",
     waist="Fotia Belt",
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
@@ -343,70 +344,96 @@ function get_sets()
     right_ring="Flamma Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 
-	sets.WS.ImpulseDrive = {}
+	sets.WS.ImpulseDrive = {
+	ammo="Knobkierrie",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.SteelCyclone = {
 	ammo="Knobkierrie",
-    head="Sulevia's Mask +1",
-    body="Sulevia's Plate. +1",
-    hands="Sulevia's Gauntlets +2",
-    legs="Sulevia's Cuisses",
-    feet="Sulevia's Leggings +2",
-    neck="Fotia Gorget",
-    waist="Chuq'aba Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Provocare Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring={ name="Gelatinous Ring +1", augments={'Path: A',}},
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.RaidenThrust = {}
 	
 	sets.WS.SavageBlade = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Warrior's Beads",
-    waist="Chuq'aba Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
-	sets.WS.Judgment = {}
+	sets.WS.Judgment = {
+	ammo="Knobkierrie",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.Decimation = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Fotia Gorget",
-    waist="Fotia Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	sets.WS.Cloudsplitter = {
 	ammo="Knobkierrie",
-    head="Flam. Zucchetto +2",
-    body={ name="Argosy Hauberk", augments={'STR+10','DEX+10','Attack+15',}},
-    hands={ name="Argosy Mufflers", augments={'STR+10','DEX+10','Attack+15',}},
-    legs={ name="Argosy Breeches", augments={'STR+10','DEX+10','Attack+15',}},
-    feet="Pumm. Calligae +2",
-    neck="Warrior's Beads",
-    waist="Chuq'aba Belt",
-    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Thrud Earring",
-    left_ring="Petrov Ring",
-    right_ring="Flamma Ring",
+    head={ name="Agoge Mask +2", augments={'Enhances "Savagery" effect',}},
+    body="Pumm. Lorica +2",
+    hands="Sulev. Gauntlets +2",
+    legs={ name="Valorous Hose", augments={'Accuracy+18 Attack+18','Weapon skill damage +4%','DEX+6',}},
+    feet="Sulev. Leggings +2",
+    neck={ name="War. Beads +2", augments={'Path: A',}},
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Thrud Earring",
+    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
     back={ name="Cichol's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}},}
 	
 	----------------------
@@ -478,12 +505,9 @@ function get_sets()
     back="Moonbeam Cape",}
 	
 	--Put Treasure Hunter gear here
-	sets.Utility.TH = {ammo="Perfect Lucky Egg",}
-	--Perfect Lucky Egg
+	sets.Utility.TH = {ammo="Perfect Lucky Egg", head="White Rarab Cap +1",}
 	--Chaac Belt
-	--White Rarab Cap+1
 	
-
 	----------------------
 	--   Precast Sets   --
 	----------------------
@@ -492,7 +516,7 @@ function get_sets()
 	sets.precast.FastCast = {right_ear="Loquac. Earring", right_ring="Prolix Ring",}
 	--FC = XX%
 	--Put FC items in here even if you never think you'll use them
-	sets.precast.FastCast.Standard = {}
+	sets.precast.FastCast.Standard = { }
 
 end
 
@@ -603,16 +627,13 @@ function buff_change(n, gain, buff_table)
     elseif name == "doom" then
         if gain then
             ChangeGear(sets.Utility.Doom)
-            send_command('@input /p Doomed')
             disable('ring1','ring2','waist')
         else
             if player.status == 'Engaged' then
                 if LockGearIndex then
-                    send_command('@input /p Doom is off {^_^}')
                     enable('ring1','ring2','waist')
                     ChangeGear(LockGearSet)
                 else
-                    send_command('@input /p Doom is off {^_^}')
                     enable('ring1','ring2','waist')
 					if DT == true then
                         ChangeGear(sets.DT[sets.DT.index[DT_ind]])
@@ -622,11 +643,9 @@ function buff_change(n, gain, buff_table)
                 end
             elseif player.status == 'Idle' then
                 if LockGearIndex then
-                    send_command('@input /p Doom is off {^_^}')
                     enable('ring1','ring2','waist')
                     ChangeGear(LockGearSet)					
                 else
-                    send_command('@input /p Doom is off {^_^}')
                     enable('ring1','ring2','waist')
                     ChangeGear(sets.Idle[sets.Idle.index[Idle_ind]])
                 end

@@ -1,4 +1,5 @@
 --START OF GEAR--
+--START OF GEAR--
 
 function get_sets()
     maps()
@@ -73,7 +74,20 @@ function get_sets()
     right_ring="Shneddick Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
-    sets.Idle.DTRefresh = {}
+    sets.Idle.DTRefresh = {
+	ammo="Staunch Tathlum",
+    head="Pixie Hairpin +1",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet={ name="Carmine Greaves +1", augments={'HP+80','MP+80','Phys. dmg. taken -4',}},
+    neck="Sanctity Necklace",
+    waist="Fucho-no-Obi",
+    left_ear="Halasz Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Fenrir Ring +1",
+    right_ring="Shneddick Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
 	sets.Idle.DT = {
 	ammo="Staunch Tathlum",
@@ -220,45 +234,45 @@ function get_sets()
 	
 	sets.SavageBlade.AttackUncap = {
 	ammo="Aurgelmir Orb",
-    head="Nyame Helm",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Nyame Mail",
-    hands="Nyame Gauntlets",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Nyame Flanchard",
     feet="Nyame Sollerets",
     neck="Mirage Stole +1",
     waist={ name="Sailfi Belt +1", augments={'Path: A',}},
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Cessance Earring",
+    right_ear="Odr Earring",
     left_ring="Rufescent Ring",
     right_ring="Ifrit Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 	
 	sets.SavageBlade.AttackCap = {    
 	ammo="Aurgelmir Orb",
-    head="Nyame Helm",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Nyame Mail",
-    hands="Nyame Gauntlets",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Nyame Flanchard",
     feet="Nyame Sollerets",
     neck="Mirage Stole +1",
     waist={ name="Sailfi Belt +1", augments={'Path: A',}},
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Cessance Earring",
+    right_ear="Odr Earring",
     left_ring="Rufescent Ring",
     right_ring="Ifrit Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 	
 	sets.SavageBlade.Accuracy = {    
 	ammo="Aurgelmir Orb",
-    head="Nyame Helm",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Nyame Mail",
-    hands="Nyame Gauntlets",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Nyame Flanchard",
     feet="Nyame Sollerets",
     neck="Mirage Stole +1",
     waist={ name="Sailfi Belt +1", augments={'Path: A',}},
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Cessance Earring",
+    right_ear="Odr Earring",
     left_ring="Rufescent Ring",
     right_ring="Ifrit Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
@@ -267,46 +281,85 @@ function get_sets()
     sets.Requiescat.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
     Requiescat_ind = 1
 
-    sets.Requiescat.AttackUncap = {}
+    sets.Requiescat.AttackUncap = {
+	ammo="Honed Tathlum",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Telos Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 	
-	sets.Requiescat.AttackCap = set_combine(sets.Requiescat.AttackUncap, {})
+	sets.Requiescat.AttackCap = set_combine(sets.Requiescat.AttackUncap, {
+	ammo="Honed Tathlum",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Telos Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},})
 	
-    sets.Requiescat.Accuracy = {}
+    sets.Requiescat.Accuracy = {
+	ammo="Honed Tathlum",
+    head="Nyame Helm",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets",
+    neck="Fotia Gorget",
+    waist="Fotia Belt",
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Telos Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
     sets.CDC = {}
     sets.CDC.index = { 'AttackUncap', 'AttackCap', 'Accuracy' }
     CDC_ind = 1
 
     sets.CDC.AttackUncap = {
-	ammo="Expeditious Pinion",
+	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Ayanmo Corazza +2",
-    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
+    hands="Nyame Gauntlets",
     legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}},
-    feet="Aya. Gambieras +1",
-    neck="Fotia Gorget",
+    feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
+    neck="Mirage Stole +1",
     waist="Fotia Belt",
-    left_ear="Brutal Earring",
-    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    left_ring="Garuda Ring",
-    right_ring="Garuda Ring +1",
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Odr Earring",
+    left_ring="Epona's Ring",
+    right_ring="Ramuh Ring",
     back="Kayapa Cape",}
 
     sets.CDC.AttackCap = set_combine(sets.CDC.AttackUncap, {})
     
     sets.CDC.Accuracy = {
-	ammo="Expeditious Pinion",
+	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Ayanmo Corazza +2",
-    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
+    hands="Nyame Gauntlets",
     legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}},
-    feet="Aya. Gambieras +1",
-    neck="Fotia Gorget",
+    feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
+    neck="Mirage Stole +1",
     waist="Fotia Belt",
-    left_ear="Brutal Earring",
-    right_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    left_ring="Garuda Ring",
-    right_ring="Garuda Ring +1",
+    left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
+    right_ear="Odr Earring",
+    left_ring="Epona's Ring",
+    right_ring="Ramuh Ring",
     back="Kayapa Cape",}
 
     sets.Expiacion = {}
@@ -315,15 +368,15 @@ function get_sets()
 
     sets.Expiacion.AttackUncap = {
 	ammo="Aurgelmir Orb",
-    head="Nyame Helm",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Nyame Mail",
-    hands="Nyame Gauntlets",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Nyame Flanchard",
     feet="Nyame Sollerets",
     neck="Mirage Stole +1",
     waist={ name="Sailfi Belt +1", augments={'Path: A',}},
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Cessance Earring",
+    right_ear="Odr Earring",
     left_ring="Rufescent Ring",
     right_ring="Ifrit Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
@@ -332,15 +385,15 @@ function get_sets()
 	
     sets.Expiacion.Accuracy = {
 	ammo="Aurgelmir Orb",
-    head="Nyame Helm",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
     body="Nyame Mail",
-    hands="Nyame Gauntlets",
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Nyame Flanchard",
     feet="Nyame Sollerets",
     neck="Mirage Stole +1",
     waist={ name="Sailfi Belt +1", augments={'Path: A',}},
     left_ear={ name="Moonshade Earring", augments={'Accuracy+4','TP Bonus +250',}},
-    right_ear="Cessance Earring",
+    right_ear="Odr Earring",
     left_ring="Rufescent Ring",
     right_ring="Ifrit Ring",
     back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
@@ -390,7 +443,20 @@ function get_sets()
     -------------------
     sets.BlueMagic = {}
 
-    sets.BlueMagic.STR = {}
+    sets.BlueMagic.STR = {
+	ammo="Aurgelmir Orb",
+    head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
+    body={ name="Adhemar Jacket", augments={'STR+10','DEX+10','Attack+15',}},
+    hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
+    legs="Jhakri Slops +1",
+    feet="Nyame Sollerets",
+    neck="Mirage Stole +1",
+    waist={ name="Sailfi Belt +1", augments={'Path: A',}},
+    left_ear="Telos Earring",
+    right_ear="Tati Earring",
+    left_ring="Rufescent Ring",
+    right_ring="Ifrit Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
     sets.BlueMagic.STRDEX = set_combine(sets.BlueMagic.STR, {})
 
@@ -407,19 +473,84 @@ function get_sets()
     sets.BlueMagic.INT.index = { "MAB", "MACC", "EffectOnly" }
     MAB_ind = 1
 
-    sets.BlueMagic.INT.MAB = {}
+    sets.BlueMagic.INT.MAB = {
+	ammo="Ombre Tathlum",
+    head="Nyame Helm",
+    body="Jhakri Robe +1",
+    hands="Nyame Gauntlets",
+    legs="Jhakri Slops +1",
+    feet="Nyame Sollerets",
+    neck="Sanctity Necklace",
+    waist="Salire Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Shiva Ring",
+    right_ring="Fenrir Ring +1",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
     
-    sets.BlueMagic.INT.MACC = {}
+    sets.BlueMagic.INT.MACC = {
+	ammo="Ombre Tathlum",
+    head="Nyame Helm",
+    body="Jhakri Robe +1",
+    hands="Nyame Gauntlets",
+    legs="Jhakri Slops +1",
+    feet="Nyame Sollerets",
+    neck="Sanctity Necklace",
+    waist="Salire Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Shiva Ring",
+    right_ring="Fenrir Ring +1",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 	
-	sets.BlueMagic.INT.EffectOnly = {}
+	sets.BlueMagic.INT.EffectOnly = {
+	ammo="Ombre Tathlum",
+    head="Nyame Helm",
+    body="Jhakri Robe +1",
+    hands="Nyame Gauntlets",
+    legs="Jhakri Slops +1",
+    feet="Nyame Sollerets",
+    neck="Sanctity Necklace",
+    waist="Salire Belt",
+    left_ear="Friomisi Earring",
+    right_ear="Hecate's Earring",
+    left_ring="Shiva Ring",
+    right_ring="Fenrir Ring +1",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
     
 	-----------------------------------------
 	-----------------------------------------
     
 	--CP cap 50%, CP Received cap 30%--
-    sets.BlueMagic.Cures = {}
+    sets.BlueMagic.Cures = {
+	ammo="Mavi Tathlum",
+    head={ name="Telchine Cap", augments={'"Cure" potency +8%','MND+9',}},
+    body={ name="Telchine Chas.", augments={'"Cure" potency +7%','MND+8',}},
+    hands={ name="Telchine Gloves", augments={'"Cure" potency +8%','MND+10',}},
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','MND+8',}},
+    feet={ name="Telchine Pigaches", augments={'"Cure" potency +7%','MND+8',}},
+    neck="Mirage Stole +1",
+    waist="Salire Belt",
+    left_ear="Mendi. Earring",
+    right_ear="Lifestorm Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back="Tempered Cape +1",}
     
-    sets.BlueMagic.SelfCures = {}
+    sets.BlueMagic.SelfCures = {
+	ammo="Mavi Tathlum",
+    head={ name="Telchine Cap", augments={'"Cure" potency +8%','MND+9',}},
+    body={ name="Telchine Chas.", augments={'"Cure" potency +7%','MND+8',}},
+    hands={ name="Telchine Gloves", augments={'"Cure" potency +8%','MND+10',}},
+    legs={ name="Telchine Braconi", augments={'"Cure" potency +8%','MND+8',}},
+    feet={ name="Telchine Pigaches", augments={'"Cure" potency +7%','MND+8',}},
+    neck="Mirage Stole +1",
+    waist="Salire Belt",
+    left_ear="Mendi. Earring",
+    right_ear="Lifestorm Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back="Tempered Cape +1",}
 	
 	sets.BlueMagic.WhiteWind = {}
 
@@ -441,13 +572,39 @@ function get_sets()
     ---For example diamondhide caps at 500
 	---Mastered Skill w/ merits is 472
 	
-    sets.BlueMagic.Skill = {}
+    sets.BlueMagic.Skill = {
+	ammo="Mavi Tathlum",
+    head={ name="Luh. Keffiyeh +1", augments={'Enhances "Convergence" effect',}},
+    body="Assim. Jubbah +1",
+    hands="Hashi. Bazu. +1",
+    legs="Hashishin Tayt +1",
+    feet={ name="Luhlaza Charuqs +1", augments={'Enhances "Diffusion" effect',}},
+    neck="Mirage Stole +1",
+    waist="Witful Belt",
+    left_ear="Njordr Earring",
+    right_ear="Loquac. Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 
 	--Aim for empy hands and FC+ with skill /50
 	---Recast cap is +49 FC, this excludes erratic flutter, which really just means 64 total.
 	----If you are using the Empyrean hands, its +23 FC to cap recast.
 	
-	sets.BlueMagic.Occultation = {}
+	sets.BlueMagic.Occultation = {
+	ammo="Mavi Tathlum",
+    head={ name="Luh. Keffiyeh +1", augments={'Enhances "Convergence" effect',}},
+    body="Assim. Jubbah +1",
+    hands="Hashi. Bazu. +1",
+    legs="Hashishin Tayt +1",
+    feet={ name="Luhlaza Charuqs +1", augments={'Enhances "Diffusion" effect',}},
+    neck="Mirage Stole +1",
+    waist="Witful Belt",
+    left_ear="Njordr Earring",
+    right_ear="Loquac. Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
 	
     sets.BlueMagic.Enmity = {}
 
@@ -456,25 +613,68 @@ function get_sets()
 
     --Enhancing Sets--
     
-    sets.Enhancing = set_combine(sets.BlueMagic.Buffs, {})
+    sets.Enhancing = set_combine(sets.BlueMagic.Buffs, {
+	head={ name="Telchine Cap", augments={'Enh. Mag. eff. dur. +10',}},
+    body={ name="Telchine Chas.", augments={'Enh. Mag. eff. dur. +10',}},
+    hands={ name="Telchine Gloves", augments={'Enh. Mag. eff. dur. +10',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Telchine Pigaches", augments={'Enh. Mag. eff. dur. +10',}},
+    neck="Incanter's Torque",
+    waist="Olympus Sash",
+    left_ear="Mimir Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back="Merciful Cape",})
 	
-	    sets.Enhancing.Bar = set_combine(sets.BlueMagic.Buffs, {})
+	sets.Enhancing.Bar = set_combine(sets.BlueMagic.Buffs, {
+	head={ name="Telchine Cap", augments={'Enh. Mag. eff. dur. +10',}},
+    body={ name="Telchine Chas.", augments={'Enh. Mag. eff. dur. +10',}},
+    hands={ name="Telchine Gloves", augments={'Enh. Mag. eff. dur. +10',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Telchine Pigaches", augments={'Enh. Mag. eff. dur. +10',}},
+    neck="Incanter's Torque",
+    waist="Olympus Sash",
+    left_ear="Mimir Earring",
+    left_ring="Stikini Ring",
+    right_ring="Stikini Ring",
+    back="Merciful Cape",})
     
-    sets.Enhancing.Phalanx = set_combine(sets.BlueMagic.Buffs, {})
+    sets.Enhancing.Phalanx = set_combine(sets.BlueMagic.Buffs, {
+	head={ name="Taeon Chapeau", augments={'Mag. Evasion+18','"Conserve MP"+5','Phalanx +3',}},
+    body={ name="Taeon Tabard", augments={'Mag. Evasion+15','Spell interruption rate down -10%','Phalanx +3',}},
+    hands={ name="Taeon Gloves", augments={'Mag. Evasion+15','Spell interruption rate down -9%','Phalanx +3',}},
+    legs={ name="Taeon Tights", augments={'Mag. Evasion+16','Spell interruption rate down -9%','Phalanx +3',}},
+    feet={ name="Taeon Boots", augments={'Mag. Evasion+16','Spell interruption rate down -10%','Phalanx +3',}},})
     
-    sets.Enhancing.Aquaveil = set_combine(sets.BlueMagic.Buffs, {})
+    sets.Enhancing.Aquaveil = set_combine(sets.BlueMagic.Buffs, {waist = "Flume Belt",})
     
-    sets.Enhancing.ProShell = set_combine(sets.BlueMagic.Buffs, {})
+    sets.Enhancing.ProShell = set_combine(sets.BlueMagic.Buffs, {ring= "Sheltered Ring",})
 
     sets.Utility = {}
     
-    sets.Utility.TH = {}
+    sets.Utility.TH = {
+	ammo="Per. Lucky Egg",
+    head="Wh. Rarab Cap +1",
+    legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}},}
 	
 	--Comes on when slept, terrored, stunned, and petrified--
     --Capped DT and -42% MDT, assumes shell etc may be gone after being unable to act, but doesn't really care--
-    sets.Utility.DerpDT = {}
+    sets.Utility.DerpDT = {
+	ammo="Staunch Tathlum",
+    head="Malignance Chapeau",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    legs="Malignance Tights",
+    feet="Nyame Sollerets",
+    neck="Twilight Torque",
+    waist="Flume Belt",
+    left_ear="Brutal Earring",
+    right_ear="Cessance Earring",
+    left_ring="Defending Ring",
+    right_ring="Moonbeam Ring",
+    back={ name="Cornflower Cape", augments={'MP+30','DEX+1','Accuracy+3','Blue Magic skill +10',}},}
     
-    sets.Utility.Doom = {}
+    sets.Utility.Doom = {waist = "Gishdubar Sash"}
 	
     --Job Ability Sets--
 
@@ -498,10 +698,21 @@ function get_sets()
 
     sets.precast.FC = {}
 
-    sets.precast.FC.Standard = {}
+    sets.precast.FC.Standard = {
+	head={ name="Herculean Helm", augments={'AGI+4','MND+10','"Treasure Hunter"+1',}},
+    body={ name="Taeon Tabard", augments={'"Fast Cast"+5','"Regen" potency+3',}},
+    hands={ name="Taeon Gloves", augments={'"Fast Cast"+5','"Regen" potency+3',}},
+    legs="Aya. Cosciales +2",
+    feet={ name="Carmine Greaves +1", augments={'HP+80','MP+80','Phys. dmg. taken -4',}},
+    neck="Voltsurge Torque",
+    waist="Witful Belt",
+    left_ear="Loquac. Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Prolix Ring",
+    right_ring="Lebeche Ring",}
 
     --Empy body stacks with FC, 80% cap, empy hands must be on at time of casting (mid) for effect--
-    sets.precast.FC.Blue = set_combine(sets.precast.FC.Standard, {})
+    sets.precast.FC.Blue = set_combine(sets.precast.FC.Standard, {body="Hashishin Mintan +1",})
 	
 end
 

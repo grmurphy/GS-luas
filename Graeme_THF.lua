@@ -75,7 +75,7 @@ function get_sets()
 	sets.TP.DualWield = {
 	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body="Pillager's Vest +2",
+    body="Pillager's Vest +3",
     hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Meg. Chausses +1",
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
@@ -90,7 +90,7 @@ function get_sets()
 	sets.TP.CapHaste = {
 	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body="Pillager's Vest +2",
+    body="Pillager's Vest +3",
     hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Meg. Chausses +1",
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
@@ -105,7 +105,7 @@ function get_sets()
 	sets.TP.AccuracyLite = {
 	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body="Pillager's Vest +2",
+    body="Pillager's Vest +3",
     hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Meg. Chausses +1",
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
@@ -120,7 +120,7 @@ function get_sets()
 	sets.TP.AccuracyMid = {
 	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body="Pillager's Vest +2",
+    body="Pillager's Vest +3",
     hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Meg. Chausses +1",
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
@@ -135,7 +135,7 @@ function get_sets()
 	sets.TP.AccuracyFull = {
 	ammo="Aurgelmir Orb",
     head={ name="Adhemar Bonnet +1", augments={'STR+12','DEX+12','Attack+20',}},
-    body="Pillager's Vest +2", 
+    body="Pillager's Vest +3",
     hands={ name="Adhemar Wrist. +1", augments={'STR+12','DEX+12','Attack+20',}},
     legs="Meg. Chausses +1",
     feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+3','AGI+7','Attack+2',}},
@@ -693,7 +693,7 @@ function get_sets()
 	sets.JA.Steal = {hands="Pill. Armlets +1", legs="Pill. Culottes +2", feet="Pill. Poulaines +1", neck="Pentalagus Charm",}
 	sets.JA.Mug = {name="Plun. Bonnet",}
 	sets.JA.Despoil = {feet="Skulk. Poulaines +1"}
-	sets.JA.Hide = {body="Pillager's Vest +1"}
+	sets.JA.Hide = {body="Pillager's Vest +3"}
 	sets.JA.Flee = {feet="Pill. Poulaines +1"}
 	sets.JA.Feint = {name="Plun. Culottes", augments={'Enhances "Feint" effect',}}
 	sets.JA.AccompliceCollaborator = {head="Skulker's Bonnet",}
