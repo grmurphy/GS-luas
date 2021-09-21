@@ -630,7 +630,7 @@ function get_sets()
 	
 	sets.Utility.TH = {
 	ammo="Per. Lucky Egg", -- +1
-	head={ name="Herculean Helm", augments={'AGI+4','MND+10','"Treasure Hunter"+1',}}, -- +1
+	 head="Wh. Rarab Cap +1", -- +1
 	hands={ name="Plun. Armlets +1", augments={'Enhances "Perfect Dodge" effect',}}, -- +3
 	legs={ name="Herculean Trousers", augments={'"Waltz" potency +6%','DEX+14','"Treasure Hunter"+2',}}, -- +2
 	feet="Skulk. Poulaines +1",} -- +3
